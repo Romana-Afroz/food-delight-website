@@ -16,12 +16,21 @@ section{
     margin-left: 5%;
     padding-left: 2%;
 }
-
+.display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .half-width img{
 
     width: 100%;
 }
-
+p{
+    color: gray;
+}
+h1{
+    font-size: 50px;  
+}
 
 h1 span{
     color:rgb(11, 160, 219);
@@ -34,3 +43,4 @@ h1 span{
     color: rgb(144, 184, 223);
     font-weight: 700;
 }
+

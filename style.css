@@ -6,13 +6,13 @@ section{
     height: 500px;
     padding-bottom: 15px;
 }
-.back-img{
-    height: 450px;
-    width: 100%;
-}
+
 .back-img{
 background-repeat: no-repeat;
     background-image:url("img/firstbg.jpg");
+    height: 250%;
+    width: 100%;
+    background-size: cover;
 }
 .half-width{
     width:40%;
@@ -24,7 +24,9 @@ background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
 }
+
 .half-width img{
 
     width: 100%;
@@ -48,7 +50,7 @@ h1 span{
     text-decoration: none;
     background: linear-gradient(45deg, rgb(6, 116, 167), rgb(147, 155, 224));
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
     font-weight: 700;
 }
@@ -59,18 +61,25 @@ h1 span{
 .back2-img{
     background-image:url("img/midbg.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .align-item {
     text-align: center;
    
     align-items: center;
+    height: 150px;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
 }
 .algin{
     font-size: 30px;
     text-align: center;
 }
 .info{
-    margin-bottom: 30%;
+    margin-bottom: 7%;
 }
 .item{
     width: 300px;
@@ -100,13 +109,15 @@ h1 span{
     transform: scale(1.045);
 }
 .display{
-    margin: 5% 1%;
+    height: 150px;
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
 }
 .display-item{
     justify-content: space-around;
-    width: 100%;
-    height: 30%;
-    padding: 10px,5px;
     box-shadow: 10px 10px 15px rgb(139, 137, 137);
     border-radius: 5%;
 }
